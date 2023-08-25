@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <title>Aditya Choudhari | Portfolio</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .topnav a:hover {
+    color: black;
+
+    font-weight: bold;
+  }
+
+  .topnav a.active {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    border-bottom: 3px solid red;
+  }
+
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav-right {
+      float: none;
+      display: block;
+    }
+
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+</style>
+
+<body>
+
+  <!-- Top navigation -->
+  <div class="topnav">
+
+    <!-- Centered link -->
+    <div class="topnav-centered">
+      <a href="index.html">ADITYA CHOUDHARI</a>
+    </div>
+    <!-- Left-aligned links (default) -->
+    <a href="projects.html">Projects</a>
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+      <a href="about.html" class="active">About Me</a>
+    </div>
+  </div>
+  <!--END-->
+  <!--Main Content-->
+
+    
+  <!--END-->
+  <!--Footer-->
+  <div class="footer">
+    <div class="heading">
+      <h2>ADITYA CHOUDHARI</h2>
+    </div>
+    <div class="content">
+      <div class="services">
+        <h4>Services</h4>
+        <p><a href="#">Web development</a></p>
+      </div>
+      <div class="social-media">
+        <h4>Social</h4>
+        <p>
+          <a target="_blank" href="https://linkedin.com/in/aditya-choudhari-846a3727a"><i class="fab fa-linkedin"></i>
+            Linkedin</a>
+        </p>
+        <p>
+          <a target="_blank" href="https://github.com/adityachoudhari681"><i class="fab fa-github"></i> Github</a>
+        </p>
+
+      </div>
+      <div class="links">
+        <h4>Quick links</h4>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="projects.html">Projects</a></p>
+        <p><a href="about.html">About Me</a></p>
+      </div>
+      <div class="details">
+        <h4 class="mail">Email</h4>
+        <p><a href="#">choudhariaditya681@gmail.com</a></p>
+      </div>
+    </div>
+    <footer>
+
+      © 2023 ADITYA CHOUDHARI, All Rights Reserved.
+    </footer>
+  </div>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .footer {
+      background-color: snow;
+      color: black;
+      margin-top: 6.5px;
+      width: 100%;
+
+      left: 0;
+  
+
+    }
+
+    .footer .heading {
+      color: black;
+      max-width: 1010px;
+      width: 90%;
+      text-transform: uppercase;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+    }
+
+    .footer .content {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 1.5rem;
+    }
+
+    .footer .content p {
+      margin-bottom: 1.3rem;
+    }
+
+    .footer .content a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .footer .content a:hover {
+      border-bottom: 2.5px solid red;
+    }
+
+    .footer .content h4 {
+      margin-bottom: 1.3rem;
+      font-size: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding-bottom: 18px;
+    margin-bottom: 0px;
+
+    }
+
+    footer hr {
+      margin: 2rem 0;
+
+    }
+
+    @media (max-width: 767px) {
+      .footer .content {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+      }
+
+      .footer {
+        position: unset;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+      .footer .content,
+      .footer {
+        font-size: 14px;
+      }
+    }
+
+    @media (orientation: landscape) and (max-height: 500px) {
+      .footer {
+        position: unset;
+      }
+    }
+  </style>
+  <!--END-->
+
+</body>
+
+</html>

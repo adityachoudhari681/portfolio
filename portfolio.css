@@ -1,0 +1,57 @@
+*
+{
+  margin-top: 0;
+  margin-bottom:0 ;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-bottom:0 ;
+  padding-left: 0;
+  padding-right: 0;
+}
+.maincontainer
+{
+  margin-top: 5px;
+  margin-bottom:5px ;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-align: center;  background-color: rgba(250, 235, 215, 0.171);
+  padding-top: 10px;
+  padding-bottom:10px ;
+
+}
+.mainimage
+{
+  border-radius: 50%;
+
+}
+
+.frontend
+{
+  color: cornflowerblue;
+}
+.skills
+{
+  font-size: 20px;
+}
+.num
+{
+  font-size: 20px;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: rgb(143, 142, 142);
+}
