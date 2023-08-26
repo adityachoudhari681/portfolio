@@ -20,6 +20,10 @@
   padding-bottom:10px ;
 
 }
+::selection {
+  background-color:black; /* Change this to the desired background color */
+  color: white; /* Change this to the desired text color */
+}
 .mainimage
 {
   border-radius: 50%;
