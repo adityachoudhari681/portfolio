@@ -59,6 +59,9 @@
 
   /* Responsive navigation menu (for mobile devices) */
   @media screen and (max-width: 600px) {
+    .card {
+      flex-direction: column;
+    }
 
     .topnav a,
     .topnav-right {
@@ -93,8 +96,76 @@
   </div>
   <!--END-->
   <!--Main Content-->
+  <div class="maincontainer">
 
-    
+    <div class="image"><img class="mainimage" src="aditya photo.jfif" alt="ADITYA CHOUDHARI"></div>
+    <h1>ADITYA CHOUDHARI</h1>
+    <h2 class="frontend">Frontend Developer💻</h2>
+    <br>
+    <p class="skills">HTML | CSS | Javascript</p>
+    <p class="skills">C/C++ | Python</p>
+    <p class="skills">Bootstrap | Responsive Web Design</p>
+    <br>
+    <p class="num"><b>300+</b> Followers &nbsp;&nbsp; <b>5+</b> Projects</p>
+    <br>
+    <p class="description" >
+
+      Hello! I am Aditya Choudhari, a passionate B.Tech student pursuing Electronics and Telecommunication
+      Engineering. As an aspiring engineer with a curious mind, I am deeply enthusiastic about electronics devices and
+      the ever-evolving world of technology.
+      <br>
+      <br>
+      ✒️In addition to my academic pursuits, I have developed a keen interest in web development and coding and enjoy
+      learning new Programming Technologies.
+      <br>
+      <br>
+      ✒️Apart from my academics, I find joy in restoring old electronic/electrical devices at my home, watching food
+      vlogs, listening to music.
+      <br>
+      <br>
+      ✒️I am excited to connect with professionals who share similar interests and passions.
+      <br>
+      <br>
+      <b>**Open To Collabrate on Web Development Projects**</b>
+      <br>
+
+    </p>
+  </div>
+  <style>
+    ::selection {
+    background-color:black; /* Change this to the desired background color */
+    color: white; /* Change this to the desired text color */
+}
+
+    .maincontainer {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 3px;
+      margin-right: 3px;
+      text-align: center;
+      background-color: rgba(250, 235, 215, 0.171);
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+    }
+    .mainimage {
+      border-radius: 50%;
+
+    }
+    .frontend {
+      color: cornflowerblue;
+    }
+    .skills {
+      font-size: 20px;
+    }
+    .num {
+      font-size: 20px;
+    }
+    .description
+    {
+      font-size: 18px;
+    }
+  </style>
   <!--END-->
   <!--Footer-->
   <div class="footer">
@@ -129,7 +200,6 @@
       </div>
     </div>
     <footer>
-
       © 2023 ADITYA CHOUDHARI, All Rights Reserved.
     </footer>
   </div>
@@ -147,8 +217,6 @@
       width: 100%;
 
       left: 0;
-  
-
     }
 
     .footer .heading {
@@ -189,7 +257,7 @@
     footer {
       text-align: center;
       padding-bottom: 18px;
-    margin-bottom: 0px;
+      margin-bottom: 0px;
 
     }
 
@@ -221,6 +289,10 @@
     @media (orientation: landscape) and (max-height: 500px) {
       .footer {
         position: unset;
+      }
+
+      .card {
+        display: flex;
       }
     }
   </style>
